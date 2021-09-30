@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFireAlt, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
-import { Container, Logo, LogoutButton } from './styles';
+import { Container, Logo } from './styles';
+
+import Button from '../Button';
 
 const Header: React.FC = () => {
   function handleHome(): void {
@@ -17,11 +19,14 @@ const Header: React.FC = () => {
         <FontAwesomeIcon icon={faFireAlt} size="4x" />
         <h1>DivideBrasa</h1>
       </Logo>
-
-      <LogoutButton onClick={handleLogout} type="button">
-        <FontAwesomeIcon icon={faSignOutAlt} />
+      <Button
+        apparence="logout"
+        size="lg"
+        icon={faSignOutAlt}
+        onClick={handleLogout}
+      >
         Sair
-      </LogoutButton>
+      </Button>
     </Container>
   );
 };

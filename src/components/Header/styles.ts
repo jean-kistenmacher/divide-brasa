@@ -26,16 +26,3 @@ export const Logo = styled.div`
     margin-left: 8px;
   }
 `;
-
-export const LogoutButton = styled.button`
-  background-color: ${theme.buttonRed};
-  border: none;
-  border-radius: 4px;
-  padding: 12px 26px;
-  font-weight: bold;
-  color: ${theme.white};
-
-  svg {
-    margin-right: 8px;
-  }
-`;
