@@ -9,7 +9,7 @@ const ListItem: React.FC = () => {
       </div>
 
       <div>
-        <span>R$ 132,00</span>
+        <span>R$ 150,00</span>
       </div>
     </Container>
   );

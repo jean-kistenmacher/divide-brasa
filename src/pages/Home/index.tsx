@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 
         <PaymentInfo>
           <h1>Total a Receber</h1>
-          <span>R$ 67,50</span>
+          <span>R$ 80,00</span>
         </PaymentInfo>
       </HeadSection>
 
