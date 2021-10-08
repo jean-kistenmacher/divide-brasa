@@ -6,10 +6,12 @@ import Button from '../Button';
 
 const Header: React.FC = () => {
   function handleHome(): void {
+    // eslint-disable-next-line no-alert
     alert('Envia Home');
   }
 
   function handleLogout(): void {
+    // eslint-disable-next-line no-alert
     alert('Saindo da Aplicação');
   }
 
