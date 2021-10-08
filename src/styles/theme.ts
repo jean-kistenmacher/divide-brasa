@@ -2,9 +2,11 @@ const theme = {
   orange: '#ffaa4c',
   buttonRed: '#e62626',
   white: '#ffffff',
-  green: '#29bb89',
+  green: '#5dc9a4',
   blue: '#185adb',
-  grey: '#9ba4b4',
+  grey: '#f3f3f3',
+  darkGrey: '#535457',
+  font: '#363c40',
 };
 
 export default theme;

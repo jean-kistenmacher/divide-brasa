@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const buttonType: { [key: string]: string } = {
   logout: theme.buttonRed,
-  newBarbecue: theme.grey,
+  newBarbecue: theme.darkGrey,
   register: theme.blue,
   add: theme.green,
   back: theme.grey,
