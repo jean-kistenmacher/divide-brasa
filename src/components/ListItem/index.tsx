@@ -1,8 +1,12 @@
 import { Container } from './styles';
 
-const ListItem: React.FC = () => {
+interface ListItem {
+  itsPaid: boolean;
+}
+
+const ListItem: React.FC<ListItem> = ({ itsPaid }) => {
   return (
-    <Container>
+    <Container itsPaid={itsPaid}>
       <div>
         <p>Aniversário do Cleiton</p>
         <p>01/03/2019</p>

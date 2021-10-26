@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         </PaymentInfo>
       </HeadSection>
 
-      <ListItem />
+      <ListItem itsPaid />
     </Container>
   );
 };
