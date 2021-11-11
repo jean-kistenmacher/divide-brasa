@@ -1,19 +1,21 @@
 import { Container } from './styles';
+import { Churras } from '../../models/churras';
 
 interface ListItem {
   itsPaid: boolean;
+  churras: Churras;
 }
 
-const ListItem: React.FC<ListItem> = ({ itsPaid }) => {
+const ListItem: React.FC<ListItem> = ({ itsPaid, churras }) => {
   return (
     <Container itsPaid={itsPaid}>
       <div>
-        <p>Aniversário do Cleiton</p>
-        <p>01/03/2019</p>
+        <p>{churras.name}</p>
+        <p>{churras.date}</p>
       </div>
 
       <div>
-        <span>R$ 150,00</span>
+        <span>{churras.value}</span>
       </div>
     </Container>
   );

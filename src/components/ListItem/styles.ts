@@ -10,8 +10,7 @@ export const Container = styled.div<ItemProps>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: ${(props) =>
-    props.itsPaid ? theme.green : theme.buttonRed};
+  background-color: ${(props) => (props.itsPaid ? theme.green : theme.red)};
   height: 110px;
   padding: 32px;
   font-weight: bold;

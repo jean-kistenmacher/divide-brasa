@@ -1,0 +1,68 @@
+{
+  "churras": [
+    {
+      "id": 1,
+      "name": "Aniversário do Cleiton",
+      "date": "01/03/2019",
+      "value": 32,
+      "members": [
+        {
+          "id": 1,
+          "name": "Raquel Santos",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 2,
+          "name": "Miguel Oliveira",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 3,
+          "name": "Mathias Assunção",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 4,
+          "name": "Juliana Costa",
+          "value": 8,
+          "paid": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Churrasdo da Familia",
+      "date": "07/03/2019",
+      "value": 32,
+      "members": [
+        {
+          "id": 1,
+          "name": "Raquel Santos",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 2,
+          "name": "Miguel Oliveira",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 3,
+          "name": "Mathias Assunção",
+          "value": 8,
+          "paid": false
+        },
+        {
+          "id": 4,
+          "name": "Juliana Costa",
+          "value": 8,
+          "paid": false
+        }
+      ]
+    }
+  ]
+}
